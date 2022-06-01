@@ -1,0 +1,9 @@
+def fact(n):
+    if n == 1 :
+        return 1
+    else:
+        return (n*fact(n-1))
+
+number=int(input('enter the number to find factorial of'))
+z=fact(number)
+print('factorial of',number,'is',z)
