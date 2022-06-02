@@ -18,4 +18,4 @@ print(person)
 ## adding an item to the 'person' dictionary by using a new index key and assigning a value to it:
 
 person["hair color"] = "brown"
-print('person')
+print(person)
